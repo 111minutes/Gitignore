@@ -1,4 +1,21 @@
+# osx noise
 .DS_Store
+profile
+
+# xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+build.output
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+*.xcodeproj/xcuserdata/*
+pkg/
 *.xcodeproj/**
 !*.xcodeproj/*.pbxproj
 
@@ -7,8 +24,13 @@
 
 Pods
 Podfile.lock
-.idea
 
-Modules/*/*.xcodeproj/**
-!Modules/*/*.xcodeproj/*.pbxproj
+# svn & cvs
+.svn
+CVS
 
+# AppCode noise
+.idea/*
+
+# Copy-Paste Detection results
+cpd-output.xml
